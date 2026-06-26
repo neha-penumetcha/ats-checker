@@ -198,7 +198,7 @@ def run_ats(resume_text, jd_text):
 # ══════════════════════════════════════════════════════════════
 
 st.set_page_config(
-    page_title="ATSlens",
+    page_title="ATSchecker",
     page_icon="◈",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -431,7 +431,7 @@ div[data-testid="stButton"].toggle-btn > button {{
 
 bar_left, bar_mid, bar_right = st.columns([2, 6, 2])
 with bar_left:
-    st.markdown(f'<div class="logo" style="padding-top:0.5rem">◈ ATS<span>lens</span></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="logo" style="padding-top:0.5rem">◈ ATS<span>checker</span></div>', unsafe_allow_html=True)
 with bar_right:
     toggle_label = "☀ Light" if dark else "☾ Dark"
     if st.button(toggle_label, key="theme_toggle"):

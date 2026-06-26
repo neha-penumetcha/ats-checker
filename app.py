@@ -337,6 +337,56 @@ div[data-testid="stFileUploader"] {{
 }}
 div[data-testid="stFileUploader"]:hover {{ border-color: {ACCENT} !important; }}
 div[data-testid="stFileUploader"] label {{ color: {MUTED} !important; }}
+div[data-testid="stFileUploader"] > div {{
+    background: {SURFACE2} !important;
+}}
+div[data-testid="stFileUploaderDropzone"] {{
+    background: {SURFACE2} !important;
+    border-color: {BORDER2} !important;
+}}
+div[data-testid="stFileUploaderDropzoneInstructions"] {{
+    background: {SURFACE2} !important;
+    color: {MUTED} !important;
+}}
+div[data-testid="stFileUploaderDropzoneInstructions"] span,
+div[data-testid="stFileUploaderDropzoneInstructions"] p,
+div[data-testid="stFileUploaderDropzoneInstructions"] div {{
+    color: {MUTED} !important;
+    background: {SURFACE2} !important;
+}}
+div[data-testid="stFileUploaderDropzoneInstructions"] small {{
+    color: {MUTED2} !important;
+}}
+section[data-testid="stFileUploaderDropzone"] {{
+    background: {SURFACE2} !important;
+    border-color: {BORDER2} !important;
+}}
+div[data-testid="stFileUploader"] button {{
+    background: {SURFACE} !important;
+    color: {TEXT} !important;
+    border: 1px solid {BORDER2} !important;
+    border-radius: 6px !important;
+    width: auto !important;
+    padding: 0.3rem 0.9rem !important;
+    font-size: 0.8rem !important;
+}}
+div[data-testid="stFileUploader"] button:hover {{
+    border-color: {ACCENT} !important;
+    color: {ACCENT} !important;
+    opacity: 1 !important;
+}}
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] {{
+    background: {SURFACE} !important;
+    border: 1px solid {BORDER} !important;
+    border-radius: 6px !important;
+}}
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] span,
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] p {{
+    color: {TEXT} !important;
+}}
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderFile"] small {{
+    color: {MUTED} !important;
+}}
 
 div[data-testid="stButton"] > button {{
     background: {ACCENT} !important; color: #fff !important; border: none !important;

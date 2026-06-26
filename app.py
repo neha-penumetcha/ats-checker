@@ -366,7 +366,7 @@ section[data-testid="stSidebar"] {
 # ── Top bar ───────────────────────────────────────────────────
 st.markdown("""
 <div class="top-bar">
-    <div class="logo">◈ ATS<span>lens</span></div>
+    <div class="logo">◈ ATS<span>checker</span></div>
     <div class="nav-pill">Resume Intelligence</div>
 </div>
 """, unsafe_allow_html=True)
